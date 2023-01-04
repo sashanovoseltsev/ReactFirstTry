@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+}
+
+/* h1:not(:last-child) {
+  margin-bottom: 2rem;
+} */
+
+.App {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.app-title {
+  margin-top: 5rem;
+  margin-bottom: 7.5rem;
+  color: #95dada;
+  font-family: "Bigelow Rules";
+  font-size: 7.6rem;
+}
