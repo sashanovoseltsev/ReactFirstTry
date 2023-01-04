@@ -1,0 +1,78 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-container img {
+  margin-bottom: 2rem;
+}
+
+.card-container h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.card-container p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+}
+
+/* .card {
+  display: inline-block;
+  background-color: rgb(0, 227, 227);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 3rem;
+  transition: all 0.3s;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 0 3rem;
+}
+
+.square {
+  width: 25rem;
+  height: 25rem;
+  background-color: rgb(0, 162, 162);
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.card img {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.card h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.card p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+}
+
+.card:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.card:hover {
+  transform: scale(1.02) translateY(-1.2rem);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+} */
