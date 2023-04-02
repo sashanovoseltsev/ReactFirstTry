@@ -8,7 +8,7 @@ import "./App.css";
 
 const App = () => {
   const [searchField, setSearchField] = useState("");
-  const [titleText, setTitleText] = useState("");
+  const [titleText, setTitleText] = useState("Monsters Rolodex");
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
 
